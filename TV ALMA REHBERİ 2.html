@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Televizyon Alma Rehberi</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Televizyon Rehberi</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#budget">Fiyat</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#brands">Markalar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#resolutions">Çözünürlükler</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#types">Ürün Tipleri</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <section id="budget">
+            <h2>Fiyat</h2>
+            <form id="budget-form">
+                <div class="mb-3">
+                    <label for="budget-input" class="form-label">Bütçenizi Giriniz (TL)</label>
+                    <input type="number" class="form-control" id="budget-input" placeholder="Örn: 3000">
+                </div>
+                <button type="submit" class="btn btn-primary">Filtrele</button>
+            </form>
+        </section>
+
+        <section id="brands">
+            <h2>Markalar</h2>
+            <form id="brand-form">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="PHILIPS" id="PHILIPS-checkbox">
+                    <label class="form-check-label" for="PHILIPS-checkbox">PHILIPS</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="SAMSUNG" id="SAMSUNG-checkbox">
+                    <label class="form-check-label" for="SAMSUNG-checkbox">SAMSUNG</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="TCL" id="TCL-checkbox">
+                    <label class="form-check-label" for="TCL-checkbox">TCL</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="GRUNDIG" id="GRUNDIG-checkbox">
+                    <label class="form-check-label" for="GRUNDIG-checkbox">GRUNDIG</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="LG" id="LG-checkbox">
+                    <label class="form-check-label" for="LG-checkbox">LG</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="AXEN" id="AXEN-checkbox">
+                    <label class="form-check-label" for="AXEN-checkbox">AXEN</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="VESTEL" id="VESTEL-checkbox">
+                    <label class="form-check-label" for="VESTEL-checkbox">VESTEL</label>
+                </div>
+                <button type="submit" class="btn btn-primary mt-3">Filtrele</button>
+            </form>
+        </section>
+
+        <section id="types">
+            <h2>Ürün Tipleri</h2>
+            <form id="type-form">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="LED TV" id="type-led">
+                    <label class="form-check-label" for="type-led">
+                        LED TV
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="QLED TV" id="type-qled">
+                    <label class="form-check-label" for="type-qled">
+                        QLED TV
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="OLED TV" id="type-oled">
+                    <label class="form-check-label" for="type-oled">
+                        OLED TV
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="Neo QLED TV" id="type-neo-qled">
+                    <label class="form-check-label" for="type-neo-qled">
+                        Neo QLED TV
+                    </label>
+                </div>
+                <button type="submit" class="btn btn-primary mt-3">Filtrele</button>
+            </form>
+        </section>
+
+        <section id="resolutions">
+            <h2>Çözünürlükler</h2>
+            <form id="resolution-form">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="4K UHD" id="resolution-4k">
+                    <label class="form-check-label" for="resolution-4k">
+                        4K UHD
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="WXGA" id="resolution-wxga">
+                    <label class="form-check-label" for="resolution-wxga">
+                        WXGA
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="8K UHD-2" id="resolution-8k">
+                    <label class="form-check-label" for="resolution-8k">
+                        8K UHD-2
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="Full HD" id="resolution-full-hd">
+                    <label class="form-check-label" for="resolution-full-hd">
+                        Full HD
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="HDTV" id="resolution-hdtv">
+                    <label class="form-check-label" for="resolution-hdtv">
+                        HDTV
+                    </label>
+                </div>
+                <button type="submit" class="btn btn-primary mt-3">Filtrele</button>
+            </form>
+        </section>
+
+        <section id="results">
+            <h2>Sonuçlar</h2>
+            <!-- Filtrelenmiş sonuçları gösterecek alan -->
+        </section>
+    </div>
+
+    <script src="scripts.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>

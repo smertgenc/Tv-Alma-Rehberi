@@ -1,0 +1,36 @@
+Bir on web geliştiricisi olarak hareket etmenizi istiyorum. Proje için şu araçları kullanarak yeni bir web sitesi kodlayacaksınız : HTML ,CSS için CDN’ yi kullanan Bootstrap çerçevesi ve Javascript.
+Web sitesi mobil uyumlu ve duyarlı olmalıdır.Ayrıca düzen ve stil açısından site yapısında Twitter Bootstrap CSS sınıflarının en son sürümünü de içermeli.                                                                               
+HTML,CSS  ve  JAVASCRIPT kodlarını ayrı çıktılar olarak vermen önemlidir. Ayrıca sayfa içeriğindeki başlıkları dahili olarak bağlantılar içeren içeren bir gezinme menüsü eklemelisiniz.                                                                                                                                                  PROJENİN KONUSU: Televizyon alma rehberi, kullanıcıdan aldığımız bilgileri filtreleyerek biz öneriler sunacağız.                                                                                   
+
+PROJENİN ADIMLARI:  
+1. ADIMI : Kullanıcıdan bir bütçe al  yani fiyat filtresini koy                                                                            
+2.ADIM : Markalar arasından seçim yapsın kullanıcı.                                                                                 
+3.ADIM : Ürün tipini seçim yapsın kullanıcı                                                                                                          
+4.ADIM : Çözünürlükler arasından seçim yapsın kullanıcı                                                                             
+5.ADIM : kullanıcıdan seçilen televizyonları filtreleme yap ve kullanıcıya uygun 3adet seçenek sun.                                                                                                                                                                            
+                                                                                                                                                                 
+MARKALAR :
+PHILIPS
+SAMSUNG,
+TCL
+GRUNDIG
+LG 
+AXEN
+VESTEL
+---------------------------------------------
+ÇÖZÜNÜRLÜK :
+
+4K UHD 
+WXGA
+8K UHD-2 
+Full HD
+HDTV
+------------------------------------------
+ÜRÜN TİPİ :
+
+LED TV
+QLED TV
+OLED TV
+Neo QLED TV 
+                                                                                                                                                                 
+BUNLARDA KULLANICILARA SUNDUGUMUZ SEÇENEKLERİMİZ.     

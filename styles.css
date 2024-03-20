@@ -1,0 +1,48 @@
+body {
+    background-color: #121212; /* Koyu arka plan rengi */
+    color: #fff; /* Beyaz metin rengi */
+}
+
+.navbar {
+    background-color: #212529 !important; /* Navbar arka plan rengi */
+}
+
+.container {
+    background-color: #1f1f1f; /* İçerik alanı arka plan rengi */
+    border-radius: 10px; /* Kenar yumuşatma */
+    padding: 20px; /* Kenar boşluğu */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Gölgelendirme */
+}
+
+/* Aktif olan bağlantıların rengi */
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.active:hover {
+    color: #fff;
+    background-color: #343a40 !important;
+}
+
+/* Bağlantıların rengi */
+.navbar-nav .nav-link, .navbar-nav .nav-link:hover {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* Hamburger menü ikonu rengi */
+.navbar-toggler-icon {
+    background-color: #fff;
+}
+
+/* Başlık rengi */
+h2 {
+    color: #ffffff;
+}
+
+/* Form alanı arka plan rengi */
+form {
+    background-color: #343a40;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Form etiketleri rengi */
+label {
+    color: #fff;
+}
